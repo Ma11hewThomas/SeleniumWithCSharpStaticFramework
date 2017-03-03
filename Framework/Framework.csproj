@@ -52,16 +52,13 @@
     <Compile Include="Drivers\Driver.cs" />
     <Compile Include="Configuration\Configuration.cs" />
     <Compile Include="Configuration\ConfigurationReader.cs" />
-    <Compile Include="Configuration\Configuration.cs" />
-    <Compile Include="Configuration\ConfigurationReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Configuration\FrameworkConfirguration.config" />
+    <None Include="Configuration\FrameworkConfiguration.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Drivers\" />
     <Folder Include="Pages\" />
     <Folder Include="Utilities\" />
   </ItemGroup>

@@ -10,7 +10,7 @@ namespace Framework.Configuration
 
         public ConfigurationReader(string configurationFileName)
         {
-            string path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
+            string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\Framework\\Configuration\\";
             xdoc = XDocument.Load(Path.Combine(path, configurationFileName));
         }
 

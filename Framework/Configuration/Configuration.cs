@@ -2,7 +2,7 @@
 {
     public static class TestConfig
     {
-        public static ConfigurationReader reader = new ConfigurationReader("WebAutomationConfiguration.config");
+        public static ConfigurationReader reader = new ConfigurationReader("FrameworkConfiguration.config");
 
         public static string Browser()
         {
