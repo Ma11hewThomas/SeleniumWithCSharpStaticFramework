@@ -8,5 +8,9 @@
         {
             return reader.ReadValue("Browser");
         }
+        public static string LocalDriverPath()
+        {
+            return reader.ReadValue("LocalDriverPath");
+        }
     }
 }
